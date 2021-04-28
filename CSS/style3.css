@@ -1,0 +1,21 @@
+.final-intro {
+    width: 750px;
+    margin: 0 30px 50px 30px;
+    padding: 20px;
+    font-size : 24px;
+    margin-left : 110px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.555);
+}
+
+.final-intro ul {
+    list-style: none;
+}
+
+.final-intro li {
+    text-align: left;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left : 120px;
+    line-height: 35px;
+}

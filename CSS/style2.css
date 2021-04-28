@@ -1,0 +1,21 @@
+.contents {
+    width: 720px;
+    margin: 0 30px 50px 30px;
+    list-style: none;
+    padding: 20px;
+    font-size : 24px;
+    margin-left : 85px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.555);
+}
+
+.contents ul {
+    list-style: none;
+}
+
+.contents ul li {
+    font-size: 20px;
+    padding-left : 120px;
+    line-height: 35px;
+}
+

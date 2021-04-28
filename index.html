@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            /* body는 기본적으로 margin이 있음 */
+            margin: 0;
+            background-color: #090909;
+            box-sizing: border-box;
+            overflow-x:hidden; 
+            overflow-y:hidden;
+        }
+
+        #main {
+            position: relative;
+            background-image: url('images/depressed.jpg');
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;
+            height: 700px;
+        }
+
+        .textbox {
+            position: absolute;
+            padding: 30px;
+            display: inline-block;
+            font-size: 16px;
+            width: 700px;
+            height: 250px;
+            top: 350px;
+            font-family: 'Nanum Gothic', sans-serif;
+        }
+
+        .textbox h1 {
+            color: darkgray;
+        }
+
+        #main .textbox a {
+            display: inline-block;
+            padding: 10px 40px;
+            margin-top: 10px;
+            margin-left: 20px;
+            border: 2px solid white;
+            font-size: 18px;
+            color: white;
+            text-decoration: none;
+        }
+
+        #main .textbox a:hover {
+            color: #d0ebba;
+        }
+
+        .blinking {
+            -webkit-animation: blink 1.5s ease-in-out infinite alternate;
+            -moz-animation: blink 1.5s ease-in-out infinite alternate;
+            animation: blink 1.5s ease-in-out infinite alternate;
+        }
+
+        @-webkit-keyframes blink {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @-moz-keyframes blink {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @keyframes blink {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        /* blink 출처: https://pikabu.tistory.com/77 */
+    </style>
+
+    <title> 게이트키퍼가 되고 싶다면 </title>
+</head>
+
+<body>
+    <div id="top-navbar"></div>
+
+    <div id="main">
+        <div class="textbox">
+            <h1> 당신의 소중한 사람에게 필요했을 반응, </h1>
+            <h1> 삶에 지쳐있는 사람들에게 손을 내밀어 주세요. </h1>
+            <a href="main.html" class = "blinking"> <b>'게이트키퍼'</b>로 한걸음 다가가기 </a>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

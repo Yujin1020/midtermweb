@@ -1,0 +1,188 @@
+@font-face {
+    font-family: 'Nanum Gothic';
+    src : url(../font/나눔고딕.TTF) format('truetype');
+}
+
+@font-face {
+    font-family: 'Jua';
+    src : url(../font/Jua-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'nanumsquare';
+    src : url(../font/NanumSquare_acR.ttf) format('truetype');
+}
+
+body {
+    margin : 0;
+    background-color: #f2ebea;
+    font-family: 'nanumsquare';
+    box-sizing: border-box;
+    overflow-x:hidden;
+    overflow-y: auto;
+}
+
+#navibar {
+    position: fixed;
+    margin : 0;
+    width: 250px;
+    height: 100%;
+    background-color: #afbd81;
+    border-right: 3px solid #D0EBBA; 
+}
+
+.logo {
+    display: block;
+    text-align: center;
+}
+
+.logo img{
+    width: 180px;
+    padding-top : 15px;
+}
+
+#menu ul {
+    margin: 0;
+    padding-left: 20px;
+    list-style: none;
+}
+
+#menu li{
+    display: block;
+    margin-top : 30px;
+}
+
+#menu a {
+    margin: 0;
+    padding-left : 8px;
+    font-size : 20px;
+    color : white;
+    text-decoration: 0;
+    font-family: 'Jua';
+}
+
+.space {
+    height: 30px;
+}
+
+.whole {
+    position: relative;    
+    margin-left : 253px;
+    width : 100%;
+    height: 1200px;
+}
+
+.whole:after {
+    content: "";
+    display: block;
+    background-image: url(../images/bright_flower.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    opacity: 0.5;
+    position: absolute;
+    top : 0px;
+    left : 0px;
+    right: 0px;
+    bottom : 0px;
+    z-index: -1;
+}
+
+#introduce{
+    width: 950px;
+}
+
+#welcome .div1{
+    margin-left : 80px;
+    padding-top : 70px;
+    }
+
+#welcome h1{
+    position: relative;
+    width: 100%;
+    font-size: 32px;
+    margin : 0;
+}
+
+#welcome .second {
+    padding-left: 100px;
+}
+
+#welcome h1 span {
+    font-size: 48px;
+}
+
+#welcome .div2 {
+    position: relative;
+    margin-left: 80px;
+}
+
+#welcome p {
+    position: relative;
+    margin-left: 80px;
+    font-size : 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#welcome h3 {
+    position:relative;
+    margin-left: 80px;
+}
+
+#welcome p span {
+    color : red;
+}
+
+#contents {
+    position: relative;
+    top: 50px;
+    width: 950px;
+}
+
+.contents-sub {
+    margin-left : 50px;
+    padding: 0 20px 20px 20px;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.555);
+    margin-left: 120px;
+    width : 70%;
+}
+
+.title-sub {
+    font-size: 28px;
+    padding-left : 20px;
+    padding-top : 30px;
+}
+
+.title-sub .cha {
+    position: relative;   
+    top:3px;
+}
+
+.title-sub .geun {
+    position: relative;
+    bottom: 3px;
+}
+
+.steps {
+    font-size : 24px;
+    margin: 20px 20px 0 20px;
+}
+
+.title{
+    width: 65%;
+    position: relative;
+    display: block;
+    font-size : 32px;
+    margin : 0;
+    text-align: center;
+    padding : 20px 0;
+    left : 100px;
+}
+
+.title span {
+    position: relative;
+    font-size: 66px;
+    top : 10px;
+}
