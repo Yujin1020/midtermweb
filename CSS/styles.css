@@ -158,11 +158,13 @@ body {
 .title-sub .cha {
     position: relative;   
     top:3px;
+    color :green;
 }
 
 .title-sub .geun {
     position: relative;
     bottom: 3px;
+    color : blue;
 }
 
 .steps {
