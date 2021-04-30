@@ -12,28 +12,56 @@
             /* body는 기본적으로 margin이 있음 */
             margin: 0;
             background-color: #090909;
+            box-sizing: border-box;
             overflow-x: hidden;
             overflow-y: hidden;
+        }
+
+        @media only screen and (min-width : 1201px) {
+
+            #main {
+                position: relative;
+                background-image: url('images/depressed.jpg');
+                background-size: cover;
+                background-position: center center;
+                background-repeat: no-repeat;
+                height: 1250px;
+            }
+
+            .textbox {
+                position: absolute;
+                padding: 30px;
+                display: inline-block;
+                font-size: 28px;
+                width: 700px;
+                height: 250px;
+                top: 350px;
+                font-family: 'Nanum Gothic', sans-serif;
+            }
             
+            #main .textbox a {
+                font-size: 18px;
+            }
+
         }
 
         #main {
             position: relative;
-        }
-
-        #index-jpg {
-            margin : 0;
-            padding :0;
-            background-color: #090909;
+            background-image: url('images/depressed.jpg');
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;
+            height: 700px;
         }
 
         .textbox {
             position: absolute;
-            padding: 50px 50px 0 50px;
+            padding: 30px;
+            display: inline-block;
             font-size: 16px;
             width: 700px;
             height: 250px;
-            top : 500px;
+            top: 350px;
             font-family: 'Nanum Gothic', sans-serif;
         }
 
@@ -47,13 +75,13 @@
             margin-top: 10px;
             margin-left: 20px;
             border: 2px solid white;
-            font-size: 22px;
+            font-size: 18px;
             color: white;
             text-decoration: none;
         }
 
         #main .textbox a:hover {
-            color: #13eff7;
+            color: #d0ebba;
         }
 
         .blinking {
@@ -102,7 +130,6 @@
     <!-- <div id="top-navbar"></div> -->
 
     <div id="main">
-        <img class ="index-jpg" src="images/depressed.jpg" height="100%">
         <div class="textbox">
             <h1> 당신의 소중한 사람에게 필요했을 반응, </h1>
             <h1> 삶에 지쳐있는 사람들에게 손을 내밀어 주세요. </h1>
