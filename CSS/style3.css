@@ -1,12 +1,19 @@
 
+.step3-contents{
+    display: block;
+    margin-right : 253px;
+}
 .final-intro {
+    display: block;
     width: 750px;
-    margin: 20px 30px 50px 30px;
+    margin-top:20px;
+    margin-bottom: 30px;
     padding: 10px;
     font-size : 24px;
-    margin-left : 110px;
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.555);
+    margin-left:auto;
+    margin-right : auto;
 }
 
 .final-intro ul {
@@ -22,10 +29,13 @@
 }
 
 .callnlink {
+    display: block;
+    margin-left:auto;
+    margin-right : auto;
+
     padding: 10px;
     width: 750px;
     border : 2px double  rgba(255, 255, 255, 0.555);
-    margin-left : 110px;
     line-height: 30px;
     background-color: rgba(0, 0, 0, 0.555);
     color : rgba(218, 228, 173, 0.89);
@@ -63,11 +73,3 @@
 .call span{
     color: white;
 }
-
-@media all and (min-width : 1281px) {
-    .step3-contents{
-        position: relative;
-        left : 220px;
-    }
-}
-
