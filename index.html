@@ -13,66 +13,84 @@
             margin: 0;
             background-color: #090909;
             box-sizing: border-box;
-            /* overflow-x: hidden; */
-            /* overflow-y: hidden; */
+            overflow-x: hidden;
+            overflow-y: hidden;
         }
 
-        @media only screen and (min-width : 1281px) {
+        @media all and (min-width : 1281px) {
 
             #main {
+                height: 1000px;
+                width: 2300px;
                 position: relative;
-            }
-
-            #main .backimage {
-                height: 1200px;
-                width: 100%;
+                background-image: url(images/depressed.jpg);
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-size: contain;
             }
 
             .textbox {
-                background-color: aquamarine;
+                position: absolute;
+                padding: 30px;
+                font-size: 20px;
+                width: 800px;
+                height: 250px;
+                top: 550px;
+                font-family: 'Nanum Gothic', sans-serif;
+            }
+
+            #main .textbox a {
+                display: inline-block;
+                padding: 10px 40px;
+                margin-top: 10px;
+                margin-left: 20px;
+                border: 2px solid white;
+                font-size: 28px;
+                color: white;
+                text-decoration: none;
+            }
+
+
+        }
+
+        @media all and (max-width : 1280px) {
+
+            #main {
+                height: 700px;
+                width: 1280px;
+                position: relative;
+                background-image: url(images/depressed.jpg);
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+            .textbox {
                 position: absolute;
                 padding: 30px;
                 font-size: 16px;
                 width: 700px;
                 height: 250px;
-                top: 7500px;
+                top: 350px;
                 font-family: 'Nanum Gothic', sans-serif;
+            }
+
+            #main .textbox a {
+                display: inline-block;
+                padding: 10px 40px;
+                margin-top: 10px;
+                margin-left: 20px;
+                border: 2px solid white;
+                font-size: 18px;
+                color: white;
+                text-decoration: none;
             }
 
         }
 
-        #main {
-            position: relative;
-        }
-
-        #main .backimage {
-            height: 630px;
-            width: 1280px;
-        }
-
-        .textbox {
-            position: absolute;
-            padding: 30px;
-            font-size: 16px;
-            width: 700px;
-            height: 250px;
-            top: 350px;
-            font-family: 'Nanum Gothic', sans-serif;
-        }
 
         .textbox h1 {
             color: darkgray;
-        }
-
-        #main .textbox a {
-            display: inline-block;
-            padding: 10px 40px;
-            margin-top: 10px;
-            margin-left: 20px;
-            border: 2px solid white;
-            font-size: 18px;
-            color: white;
-            text-decoration: none;
         }
 
         #main .textbox a:hover {
@@ -122,18 +140,13 @@
 </head>
 
 <body>
-    <!-- <div id="top-navbar"></div> -->
-
     <div id="main">
-        <img class="backimage" src="images/depressed.jpg">
         <div class="textbox">
             <h1> 당신의 소중한 사람에게 필요했을 반응, </h1>
             <h1> 삶에 지쳐있는 사람들에게 손을 내밀어 주세요. </h1>
             <a href="main.html" class="blinking"> <b>'게이트키퍼'</b>로 한걸음 다가가기 </a>
         </div>
     </div>
-
-
 </body>
 
 </html>
