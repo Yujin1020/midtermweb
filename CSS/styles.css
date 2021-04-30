@@ -179,7 +179,7 @@ body {
 .title-sub .geun {
     position: relative;
     bottom: 3px;
-    color : blue;
+    color : rgb(255, 81, 0);
 }
 
 .steps {
